@@ -179,6 +179,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &216047075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1457284520348190, guid: cade3964935f347438ac67ed1cf1d696,
+    type: 2}
+  m_PrefabInternal: {fileID: 1170881750}
 --- !u!4 &216047081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4682750957614180, guid: cade3964935f347438ac67ed1cf1d696,
@@ -251,7 +256,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4501891797747360, guid: 0c664d7f4eac63046b4e522c794c0be1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4501891797747360, guid: 0c664d7f4eac63046b4e522c794c0be1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -277,17 +282,28 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114359374822705946, guid: 0c664d7f4eac63046b4e522c794c0be1,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 216047075}
     - target: {fileID: 114323149934757458, guid: 0c664d7f4eac63046b4e522c794c0be1,
         type: 2}
       propertyPath: m_Target
       value: 
       objectReference: {fileID: 216047081}
+    - target: {fileID: 114359374822705946, guid: 0c664d7f4eac63046b4e522c794c0be1,
+        type: 2}
+      propertyPath: distanceToPlayer.z
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 114036036716707680, guid: 0c664d7f4eac63046b4e522c794c0be1,
         type: 2}
       propertyPath: closestDistance
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114359374822705946, guid: 0c664d7f4eac63046b4e522c794c0be1, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 0c664d7f4eac63046b4e522c794c0be1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1144693003
