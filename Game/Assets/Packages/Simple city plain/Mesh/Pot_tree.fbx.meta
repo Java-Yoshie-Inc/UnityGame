@@ -1,36 +1,40 @@
 fileFormatVersion: 2
-guid: 42350cecc2959a246a2afc7215b375c5
+guid: 495aba848fd785f43bf771270ddea3dc
+timeCreated: 1517349055
+licenseType: Store
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: House_4_lod_0
-    100004: House_4_lod_1
-    100006: House_4_lod_2
     400000: //RootNode
-    400002: House_4_lod_0
-    400004: House_4_lod_1
-    400006: House_4_lod_2
-    2300000: House_4_lod_0
-    2300002: House_4_lod_1
-    2300004: House_4_lod_2
-    3300000: House_4_lod_0
-    3300002: House_4_lod_1
-    3300004: House_4_lod_2
-    4300000: House_4_lod_0
-    4300002: House_4_lod_1
-    4300004: House_4_lod_2
-    9500000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Pot_plant
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: House_4
-    second: {fileID: 2100000, guid: 74328f13b153e694ca81ef6ec6f0c9fe, type: 2}
+      name: Leaf
+    second: {fileID: 2100000, guid: 979f78b37320a024d83f80933d746728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pot
+    second: {fileID: 2100000, guid: 2b6e747f0caaf954cac5b6a899c93b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 80b89a5dacacf8d48bacb92e41f4f5d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt
+    second: {fileID: 2100000, guid: 3b602a42b43e5b941aa7ad22ffa4b2b2, type: 2}
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
+    materialName: 0
+    materialSearch: 1
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
@@ -45,7 +49,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -57,33 +60,29 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.05
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
-    previousCalculatedGlobalScale: 0.1
-    hasPreviousCalculatedGlobalScale: 1
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -98,11 +97,12 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
